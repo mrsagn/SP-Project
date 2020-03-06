@@ -16,6 +16,8 @@
 
 
 // Localdeki data.json dosyasından okuma yapmak için gerekli fonksiyon;
+// Burada localdeki JSON verilerini tablo oluşturup gösteriyor fakat istediğiniz şekilde değil.
+// Bütün contractlar ve bunları price ve quantity'si. 
 function readFile(file, callback) {
     var myJSON= new XMLHttpRequest();
     myJSON.overrideMimeType("application/json");
